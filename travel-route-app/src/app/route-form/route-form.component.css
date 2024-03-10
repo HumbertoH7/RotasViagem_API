@@ -1,0 +1,31 @@
+/* Estilo para o formulário de adição/atualização de rota */
+.route-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+  /* Estilo para os campos do formulário */
+  .route-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+
+  /* Estilo para o botão de envio do formulário */
+  .route-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+    /* Estilo para o botão de envio do formulário quando hover */
+    .route-form button:hover {
+      background-color: #0056b3;
+    }

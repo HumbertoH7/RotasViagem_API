@@ -1,0 +1,23 @@
+/* Estilo para a lista de rotas */
+.route-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Estilo para cada item da lista de rotas */
+.route-item {
+  background-color: #f4f4f4;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+/* Estilo para os títulos das rotas */
+.route-title {
+  font-weight: bold;
+}
+
+/* Estilo para os valores das rotas */
+.route-value {
+  font-style: italic;
+}

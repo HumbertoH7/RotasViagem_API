@@ -1,0 +1,9 @@
+<div class="container">
+  <h2>Consulta de Rotas</h2>
+  <div *ngIf="bestRoute">
+    <p>Origem: {{ bestRoute.origin }}</p>
+    <p>Destino: {{ bestRoute.destination }}</p>
+    <p>Custo: ${{ bestRoute.value }}</p>
+  </div>
+  <div *ngIf="error" class="alert alert-danger">{{ error }}</div>
+</div>

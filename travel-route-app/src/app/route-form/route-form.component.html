@@ -1,0 +1,19 @@
+<div class="container">
+  <h2>{{ isEditMode ? 'Editar Rota' : 'Adicionar Nova Rota' }}</h2>
+  <form [formGroup]="routeForm" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="origin">Origem:</label>
+      <input type="text" formControlName="origin" class="form-control" id="origin" placeholder="Origem">
+    </div>
+    <div class="form-group">
+      <label for="destination">Destino:</label>
+      <input type="text" formControlName="destination" class="form-control" id="destination" placeholder="Destino">
+    </div>
+    <div class="form-group">
+      <label for="value">Valor:</label>
+      <input type="number" formControlName="value" class="form-control" id="value" placeholder="Valor">
+    </div>
+    <button type="submit" class="btn btn-primary">{{ isEditMode ? 'Salvar' : 'Adicionar' }}</button>
+    <button type="button" class="btn btn-secondary" (click)="onCancel()">Cancelar</button>
+  </form>
+</div>
